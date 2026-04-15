@@ -4,8 +4,8 @@ from selenium.webdriver.support import expected_conditions as EC
 
 @pytest.mark.usefixtures("setup")
 class TestBase:
-    test_email = "shridevir843@gmail.com"
-    test_paswd = "Pi@123@sonu"
+    test_email = ""
+    test_paswd = ""
 
 
     def wait_element(self,locator):
